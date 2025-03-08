@@ -481,3 +481,4 @@ src/MyApp.Unity/Temp/
 src/MyApp.Unity/UserSettings/
 src/MyApp.Unity/*.csproj
 src/MyApp.Unity/*.sln
+src/MyApp.*_clone_*
