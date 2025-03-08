@@ -18,3 +18,12 @@ var clientWithOptions = client.WithOptions(new CallOptions()
 var result = await clientWithOptions.SumAsync(123, 456);
 
 Console.WriteLine(result);
+
+// print current time
+var sw = Stopwatch.StartNew();
+
+var result2 = await clientWithOptions.SayHelloAsync("hoge");
+sw.Stop();
+Console.WriteLine($"this take {sw.ElapsedMilliseconds} ms");
+
+Console.WriteLine(result2);
