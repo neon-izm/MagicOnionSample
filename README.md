@@ -20,16 +20,25 @@ if you want to test multiple clients, you can clone the Unity project with Parre
 cd ./src
 docker-compose up --build
 
-then you can access the server with `http://localhost:12345` (http2 client need!)
+then you can access the server with `http://localhost:5224` (http2 client need!)
 
 ## Docker (AWS)
 1. Create EC2 instance
 2. Install Docker
 3. Clone this repository
 4. Run `docker-compose up --build`
-5. Access the server with `http://<EC2 public IP>:12345` (http2 client need!)
+5. Access the server with `http://<EC2 public IP>:5224` (http2 client need!)
 
 todo: https-portal and reverse proxy
+
+# tips
+## CLI Client
+if you want to test client with http2, you can use MyApp.CliClient
+
+# todo
+- [ ] Add https-portal
+- [ ] Add CI/CD
+- [ ] Add Authentication with Firebase
 
 # Contribution
 1. Fork this repository
