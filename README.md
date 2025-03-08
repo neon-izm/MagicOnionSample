@@ -1,0 +1,2 @@
+# MagicOnionSample
+SingleInstance
