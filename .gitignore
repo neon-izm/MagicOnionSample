@@ -475,3 +475,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+.idea/
+src/MyApp.Unity/Library/
+src/MyApp.Unity/Temp/
+src/MyApp.Unity/UserSettings/
