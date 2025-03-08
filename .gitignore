@@ -480,3 +480,4 @@ src/MyApp.Unity/Library/
 src/MyApp.Unity/Temp/
 src/MyApp.Unity/UserSettings/
 src/MyApp.Unity/*.csproj
+src/MyApp.Unity/*.sln
