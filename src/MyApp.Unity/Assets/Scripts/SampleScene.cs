@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class SampleScene : MonoBehaviour
 {
+    public event Action <int> OnResult; 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     async void Start()
     {
@@ -16,6 +17,7 @@ public class SampleScene : MonoBehaviour
 
             var result = await client.SumAsync(100, 200);
             Debug.Log($"100 + 200 = {result}");
+            OnResult?.Invoke(result);
         }
         catch (Exception e)
         {
