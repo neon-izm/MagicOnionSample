@@ -5,7 +5,7 @@ using MyApp;
 using MyApp.Shared;
 using UnityEngine;
 
-public class SampleScene : MonoBehaviour
+public class GrpcClientUnity : MonoBehaviour
 {
     public event Action <int> OnResult; 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -28,11 +28,5 @@ public class SampleScene : MonoBehaviour
             Debug.LogException(e);
         }
         
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }

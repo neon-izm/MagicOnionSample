@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ShowResult : MonoBehaviour
 {
     [SerializeField] Text _resultText;
-    [SerializeField] SampleScene _client;
+    [SerializeField] GrpcClientUnity _client;
     // Start is called before the first frame update
     void Start()
     {
