@@ -27,6 +27,8 @@ namespace MyApp
 
             MessagePackSerializer.DefaultOptions = MessagePackSerializer.DefaultOptions
                 .WithResolver(StaticCompositeResolver.Instance);
+            
+            Debug.Log("MagicOnionResolver");
         }
 
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
