@@ -24,6 +24,11 @@ public class ChatView : MonoBehaviour
     private IDisposable chatTextSubscription;
     private IDisposable rttSubscription;
 
+    [Inject]
+    public void Construct(IChatPresenter chatPresenter)
+    {
+        this.chatPresenter = chatPresenter;
+    }
     private void Start()
     {
         if(chatPresenter == null)
