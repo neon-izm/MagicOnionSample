@@ -262,6 +262,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Send
       objectReference: {fileID: 0}
+    - target: {fileID: 2393736525340036308, guid: 249660378e4744743a1d88b0c8faaeb8, type: 3}
+      propertyPath: m_Text
+      value: Send
+      objectReference: {fileID: 0}
     - target: {fileID: 4652794307565426827, guid: 249660378e4744743a1d88b0c8faaeb8, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
